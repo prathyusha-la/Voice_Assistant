@@ -1,0 +1,7 @@
+<div style="text-align: center; margin-top: 50px;">
+  <h2>🎤 Speak to Your Assistant</h2>
+  <button (click)="startRecording()" [disabled]="isRecording">Start Recording</button>
+  <button (click)="stopRecording()" [disabled]="!isRecording">Stop & Transcribe</button>
+
+  <p *ngIf="response"><strong>Assistant:</strong> {{ response }}</p>
+</div>
