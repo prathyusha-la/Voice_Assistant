@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/voice")
-@CrossOrigin(origins = "*") // Allow frontend access for now
+@CrossOrigin(origins = "*")
 public class Voicecontroller {
 
     @Autowired
