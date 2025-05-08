@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common'; // ✅ add this line
+import { CommonModule } from '@angular/common'; 
 import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-voice',
-  standalone: true, // ✅ mark it as standalone
-  imports: [CommonModule], // ✅ register CommonModule here
+  standalone: true, // 
+  imports: [CommonModule],
   templateUrl: './voice.component.html',
   styleUrls: ['./voice.component.css']
 })
