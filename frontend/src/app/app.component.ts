@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { VoiceComponent } from './voice/voice.component'; // 👈 Import your voice component
-
+import { VoiceComponent } from './voice/voice.component'; 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [VoiceComponent],  // 👈 Register it here
+  imports: [VoiceComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
